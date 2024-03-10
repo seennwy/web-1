@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=cssdelindex.css>
+    <link rel="shortcut icon" href="img/logos/LOGO.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+        <title>VENUS | Pagina Inicial</title>
+    </head>
+    <body>
+
+<!-- Etiqueta para subir con la flecha -->
+        <a name="subir"></a>
+        
+<!-- Menu de navegacion -->
+        <nav id="menu">
+            <ul>
+                <li><button onclick="document.getElementById('ventanainicio').style.display='block'" style="width:auto;">Iniciar Sesion</button></li>
+                <div id="buscador"><input type="text" size="70" placeholder="Buscar"><a href="next.html"><img src="img/portada/lupa.png" width="18" height="18"></a></div>
+                <li><a href="index.html" class="botonesnav"> Inicio</a></li>
+                <li><a href="hombre.html" class="botonesnav"> Hombre</a></li>
+                <li><a href="mujer.html" class="botonesnav"> Mujer</a></li>
+                <li><a href="sobrenosotros.html" class="botonesnav"> Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+        <p  id="venusinicio"><a href="index.html"><img src="img/logos/LOGO2.png" width="270"></a></p>
+<!-- Boton Iniciar sesion -->
+        <div id="ventanainicio" class="modal">
+  
+            <form class="modal-content animate" action="index.html" method="post">
+              <div>
+                <fieldset class="iniciosesion">
+                    <p><button type="button" id="botoncancelar" onclick="document.getElementById('ventanainicio').style.display='none'">X</button>
+                    <h1>Iniciar Sesion</h1>
+                    <input type="text" name="Nombre" size="70%" placeholder="Usuario" id="casillas"><br><br>
+                    <input type="password" name="password" size="70%" placeholder="Contraseña" id="password"><br><br>    
+                    <a href="next.html" id="botonesinicio">Enviar</a><br><br>
+                    <button onclick="envio('Te acabamos de enviar un correo para que la puedas cambiar');" id="olvidado">
+                        ¿Has olvidado la contraseña?
+                      </button>
+                    <br><br>
+                    <p><class id="recuerdame"><input type="checkbox">Recuerdame</class>
+                            <class id="notienes">¿No tienes cuenta?
+                        <a href="Registrarse.html" class="botonesnav" id="botonesinicio"> Registrate</a>
+                    </p>
+                </fieldset>
+              </div>
+            </form>
+          </div>
+
+<!-- Temporada -->
+        <div id="temporada">
+            <p>Nueva Temporada!!!</p>
+        </div>
+
+<!-- Foto de portada -->
+        <div id="fotoportada">
+            <img src="img/portada/FOTO PORTADA.png" width="100%">
+        </div>
+        <br>
+
+<!-- Informacion adicional -->
+        <div id="info">
+            <p>
+                Ya esta disponible la nueva temporada de <img src="img/logos/LOGO2.png" width="90px"> todas estas prendas y mas en nuestra web y tiendas.<br><br>
+                Recuerda tenemos un <class id="descuento">20% de descuento</class> hasta el 1 de diciembre
+            </p>            
+        </div>
+        
+        <br>
+
+<!-- Videos -->
+        <div id="video">
+            <video src="img/portada/Anuncio.mp4" autoplay loop muted width="550"></video>
+            <video src="img/portada/Anuncio.mp4" autoplay loop muted width="550"></video>
+        </div>
+
+        <br>
+        <br> 
+
+<!-- Info final de la pagina -->
+        <div id="envios">
+            ENVÍO GRATUITO A TIENDA - DEVOLUCIONES GRATUITAS
+        </div>
+
+        <br>
+
+        <div class="menufinal">
+            <fieldset class="tablas">
+                <img src="img/portada/bolsa.png" width="82px">
+                <p> <class id="letrastablas">Envios a todo el mundo</class>
+                    <br><br> Envios en 24h y a cualquir lugar</p>
+            </fieldset>
+
+            <fieldset class="tablas">
+                <img src="img/portada/tarjeta.png" width="82px">
+                <p><class id="letrastablas">Pago seguro</class>
+                    <br><br> PayPal, Apple-Pay, MasterCard, Visa, BitCoin y Ethereum</p>
+            </fieldset>
+
+            <fieldset class="tablas">
+                <img src="img/portada/regalo.png" width="82px">
+                <p><class id="letrastablas">Regalos en los pedidos</class>
+                    <br><br> Pegatinas, llaveros, otra prenda (+100€)</p>
+            </fieldset>
+        </div>
+
+<!-- Boton de subir -->
+        <div><a href="#subir"><img src="img/portada/botonarriba.png" id="botonsubir"></a></div>
+        <br>
+
+<!-- Detalle final de la web -->
+        <div id="final">
+            ©VENUS
+        </div>
+    </body>
+    
+<script type="text/javascript"
+defer
+src="https://app.embed.im/snow.js"
+>
+        function envio(texto) {
+           alert(texto);
+        }
+    
+        if (window.history.replaceState) { // verificamos disponibilidad
+    window.history.replaceState(null, null, window.location.href);
+}
+    </script>
+</html>

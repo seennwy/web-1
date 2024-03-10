@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+img{
+    padding-left: 43%;
+}
+
+#textocoming{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#disculpas{
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-top: 7%;
+}
+
+#gif{
+    padding-left: 34%;
+}

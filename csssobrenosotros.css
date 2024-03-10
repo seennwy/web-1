@@ -1,0 +1,96 @@
+/*Estilo de la pagina index*/
+body{
+  background-image: url("img/sobre nosotros/fondosobrenosotros.jpg");
+  background-size: cover;
+}
+
+/*Logo principal*/
+#venusinicio{
+    font-size: 220%;
+    text-align: center;
+}
+
+/*Menu de navegacion*/
+#menu{
+    font-family: Arial, Helvetica,sans-serif;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+    width: 38%;
+    text-align: center;
+}
+
+ul li{
+    display:inline;
+    padding-right: 12px;
+}
+
+.botonesnav{
+    background-color: black;
+    color: rgb(254, 245, 224);
+    border-radius: 30px;
+    padding: 6.5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+}
+
+.botonesnav:hover{
+    background-color: transparent ;
+    color: black;
+    font-size: 19px;
+}
+
+
+/*Frase*/
+.info{
+    font-size: 220%;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+    color: transparent;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.973) 2px 2px 2px;
+}
+#todo{
+    text-align: center;
+    font-style: italic;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+    color: transparent;
+    text-shadow: rgba(176, 25, 236, 0.842) 2px 2px 2px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Diseño del final de la pagina*/
+#final{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size:12px;
+}
+
+
+#mapa{
+    border: 20px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 63%;
+}
+
+#tlf{
+    float: left;
+    padding-left: 2%;
+}
+#eml{
+    float: right;
+    padding-right: 2%;
+}

@@ -1,0 +1,441 @@
+/*Estilo de la pagina index*/
+body{
+    background-color:rgb(254, 245, 224);
+    transition: all;
+}
+
+/* Buscador de la pagina principal */
+#buscador{
+    border-radius: 30px;
+    border: 2px solid rgb(139,39,227);
+    padding: 3.5px;
+    width: 10%;
+    float: right;
+    display: flex;
+    margin-right: 10px;
+}
+#buscador input{
+    background-color: transparent;
+    border-color: transparent;
+    float: right;
+    width: 80%;
+    outline: none;
+}
+#buscador img{
+    cursor: pointer;
+}
+
+/*Inicio Sesion*/
+.iniciosesion{
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: transparent;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px;
+}
+
+#casillas{
+    border-radius: 25px;
+    border: solid 1px;
+    text-align: center;
+    width: 35% ;
+    padding: 1%;
+}
+
+#password{
+    border-radius: 25px;
+    border: solid 1px;
+    text-align: center;
+    width: 35.5%;
+    padding: 1%;
+}
+/*Botones*/
+#menu button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(139,39,227);
+    color: rgb(254, 245, 224 );
+    border: transparent;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    float: right;
+  }
+#menu button:hover {
+    background-color: rgb(254, 245, 224 ) ;
+    color: rgb(139,39,227);
+    font-size: 17px;
+  }
+
+#botonregistro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(139,39,227);
+    color: rgb(254, 245, 224 );
+    border: transparent;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    float: right;
+  }
+  #botonregistro:hover{
+    background-color: rgb(254, 245, 224 ) ;
+    color: rgb(139,39,227);
+    font-size: 19px;
+  }
+
+  #botonesinicio{
+    background-color: rgb(139,39,227);
+    color: rgb(254, 245, 224 );
+    border: transparent;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    text-align: center;
+  }
+  #botonesinicio:hover {
+    background-color: rgb(233, 233, 233) ;
+    color: rgb(139,39,227);
+    font-size: 19px;
+  }
+
+  #olvidado{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(139,39,227);
+    background-color: transparent;
+    border: transparent;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+  }
+  #olvidado:hover{
+    color: black;
+    font-size: 16px;
+  }
+
+  #botoncancelar{
+    background-color: rgb(233, 233, 233);
+    color: rgb(255, 0, 0);
+    border: transparent;    
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    float: left;
+  }
+  #botoncancelar:hover {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
+
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top:auto;
+  }
+  
+  .modal-content {
+    margin: 5% auto 15% auto;
+    width: 100%;
+  }
+  
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  @media screen and (max-width: 300px) {
+    .iniciosesion button {
+       width: 100%;
+    }
+  }
+
+  
+#recuerdame{
+    float: left;
+}
+#notienes{
+    float: right;
+}
+
+
+/*Logo principal*/
+#venusinicio{
+    font-size: 220%;
+    text-align: center;
+}
+
+
+/*Menu de navegacion*/
+#menu{
+    font-family: Arial, Helvetica,sans-serif;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+}
+
+ul li{
+    display:inline;
+    padding-right: 12px;
+}
+
+.botonesnav{
+    background-color: black;
+    color: rgb(254, 245, 224);
+    border-radius: 30px;
+    padding: 6.5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+}
+
+.botonesnav:hover{
+    background-color: rgb(254, 245, 224 ) ;
+    color: black;
+    font-size: 19px;
+}
+
+.botonsesion{
+    background-color: rgb(139,39,227);
+    color: rgb(254, 245, 224 );
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    float: right;
+}
+
+.botonsesion:hover{
+    background-color: rgb(254, 245, 224 ) ;
+    color: rgb(139,39,227);
+    font-size: 19px;
+}
+
+
+/*Forma del texto de (NUEVA TEMPORADA)*/
+#temporada{
+    font-style: italic;
+    font-size: 220%;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(139,39,227) 6px 6px 10px;
+
+}
+
+
+/*Foto de la portada*/
+#fotoportada{
+    margin: auto;
+}
+
+
+/*Info*/
+#info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 165%;
+    padding: 1px;
+    margin:auto;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+ }
+
+#descuento{
+    color: rgb(139,39,227);
+    font-size: larger;
+    font-family: initial;
+    text-shadow:  rgba(139, 39, 227, 0.856) 1px 1px 10px;
+}
+
+
+/*Video*/
+#video{
+   text-align: center;
+}
+
+
+/*Informacion del final de la pagina*/
+#envios{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.menufinal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 2rem;
+    justify-items: center;
+}
+
+
+.tablas{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: transparent;
+border-color: transparent;
+text-align: center;
+font-family:sans-serif;
+font-size: 13px;
+}
+#letrastablas{
+    font-weight: bold;
+}
+
+
+/*Diseño del final de la pagina*/
+#final{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size:x-small;
+}
+
+
+/*Boton subir*/
+#botonsubir{
+	bottom:10px;
+    right:10px;
+	position: fixed;
+	width:40px;
+    height: 40px;
+    transform: rotate(-90deg);
+}
+
+
+/*-------------------------------*/
+/*Mujer y Hombre*/
+#text{
+    font-size: 15px;
+    text-shadow:  rgba(139, 39, 227, 0.753) 1px 1px 3px;
+    color: rgb(139, 39, 227);
+}
+
+#logootras{
+    text-align: left;
+}
+
+.botoncompra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: rgba(0, 0, 0, 0.918);
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+    font-style: normal;
+    float: right;
+  }
+  .botoncompra:hover{
+    background-color:rgba(145, 79, 189, 0.781) ;
+    color: rgba(240, 240, 240, 0.829);
+    font-size: 19px;
+  }
+
+/*Menu navegacion*/
+.menuproductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 1rem;
+    justify-items: center;
+}
+
+/*Titulos de secciones*/
+.titulos{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgba(254, 245, 224, 0.753);
+    text-shadow: black 1px 1px 1px;
+}
+
+/*Productos*/
+.productos{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233,233,233);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px;
+    text-align: center;
+    }
+
+
+/*-------------------------------*/
+/*Registro*/
+#politica{
+    float: left;
+}
+
+#iniciosesion{
+    float: right;
+}
+
+#botonesregistro{
+    background-color: rgb(139,39,227);
+    color: rgb(233, 233, 233);
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+}
+
+
+#botonesregistro:hover{
+    background-color: rgb(233, 233, 233) ;
+    color: rgb(139,39,227);
+    font-size: 19px;
+}
